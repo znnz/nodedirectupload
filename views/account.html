@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>direct upload s3</title>
+  </head>
+  <body>
+    <input type="file" id="file-input" />
+    <p id="status">
+      Please select a file.
+    </p>
+    <form method="post" action="save-details">
+      <input type="hidden" id="avatar-url" name="avatar-url" value="/images/default.png" />
+      <input type="text" name="username" placeholder="User Name" /><br/>
+      <input type="text" name="full-name" placeholder="Full Name"  /><br/>
+      <input type="submit" value="Update" />
+    </form>
+  </body>
+</html>
